@@ -28,6 +28,10 @@ group :test do
   gem "webdrivers",         "5.0.0"
 end
 
+group :production do
+  gem "pg", "1.3.5"
+end
+
 
 # source "https://rubygems.org"
 # git_source(:github) { |repo| "https://github.com/#{repo}.git" }
